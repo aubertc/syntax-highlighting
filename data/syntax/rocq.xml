@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language>
 <language name="Rocq" version="1" section="Sources"
-          alternativeNames="rocq;coq;Coq" kateversion="5.0"
+          alternativeNames="rocq;coq;Coq"
+          kateversion="5.0"
           extensions="*.v" mimetype="text/x-rocq" casesensitive="true"
           author="Converted from Rocq.sublime-syntax" license="MIT">
 
 <!--
   KDE XML syntax definition for Rocq.
-  Converted from Rocq.sublime-syntax for use with Pandoc/Quarto.
+  Converted from Rocq.sublime-syntax by Florent Schaffhauser
+  for use with Pandoc/Quarto, tweaked by Clément Aubert.
   Original Rocq.sublime-syntax file available at
     https://github.com/mattam82/rocq-sublime
     (Copyright (c) Matthieu Sozeau 2025, MIT License)
@@ -404,7 +406,7 @@
 
   <general>
     <comments>
-      <comment name="multiline" start="(*" end="*)" region="Comment"/>
+      <comment name="multiLine" start="(*" end="*)" region="Comment"/>
     </comments>
     <keywords casesensitive="true"/>
   </general>
